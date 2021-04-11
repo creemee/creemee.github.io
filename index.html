@@ -1,0 +1,55 @@
+<html>
+<head>
+	<title>Creemee</title>
+	<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+	<link rel="manifest" href="site.webmanifest">
+	<meta name="description" content="In Vermont, creemee refers to what flatlanders call soft-serve.">
+	<style>
+		html, body {
+			width: 100%;
+			height: 100%;
+			display: flex;
+			background: url('confectionary.png');
+		}
+
+		* {
+			margin: 0;
+			padding: 0;
+		}
+
+		.parent {
+			margin: auto;
+			display: flex;
+			height: 80%;
+			width: 80%;
+		}
+
+		.child {
+			margin: auto;  /* Magic! */
+			max-width: 100%;
+			max-height: 100%;
+			text-align: center;
+		}
+	</style>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-170100099-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-170100099-1');
+	</script>
+</head>
+<body>
+	<div class="parent">
+		<div class="child">
+			<img src="creemeetag.svg" width="30%"/>
+			<br/><br/><br/>
+			<img src="comingsoon.svg" width="20%"/>
+		</div>
+	</div>
+</body>
+</html>
